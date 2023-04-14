@@ -7,26 +7,26 @@
 </head>
 
 <body>
-	<form action="#" method="post">
+	<form action="#" method="get">
 		<div>
-		<label for ="name" >name8</label>
-	<input type="text" id="name"name="name" >
+		<label for ="name" >name*</label>
+	<input type="text" id="name"name="name" required>
 		</div>
 		<div>
 			<label for ="email" >email*</label>
 	<input type="email" id="email" name="email" required> 
 		</div>
 		<div>
-			<label for ="male"  >gender</label>
+			<label for ="male"  >gender*</label>
 			<label for ="male"  >male</label>
-	<input type="radio" id="male" name="gender" > 
+	<input type="radio" id="male" name="gender" required > 
 	
 			<label for ="female"  >female</label>
 	<input type="radio" id="female" name="gender"> 
 		</div>
 		<div>
 			<label for="cars " >car Brands</label>
-		<select id="cars">
+		<select id="cars" name="cars">
 			<option value="bmw">bmw</option>
 			<option value="audi">audi</option>
 			<option value="mercedez">marcedez</option>
@@ -34,12 +34,12 @@
 			
 		</div>
 		<div>
-			<label for =" carage" >car age*</label>
+			<label for ="carage" >car age*</label>
 	<input type="number" id="carage" name="carage"  required> 
 		</div>
 		<div>
-				<label for ="dob" >Date of Purchase(dop)*</label>
-	<input type="text" id="dob" name="dob" required> 
+				<label for ="dop" >Date of Purchase(dop)*</label>
+	<input type="text" id="dop" name="dob" required> 
 		</div>
 		
 		<div>
